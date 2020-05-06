@@ -14,19 +14,21 @@ namespace SimpleCSharpMarkup
             {
                 RowDefinitions = Rows.Define(
                     (Row.Counter, AbsoluteGridLength(30)),
-                    (Row.Button, Star)),    
+                    (Row.Button, Star)),
                 ColumnDefinitions = Columns.Define(
                     (Column.Label, Star),
                     (Column.Value, Star)),
 
                 Children =
                 {
-                    new BoldLabel().TextEnd()
+                    new TextLabel("Tap Count").TextEnd()
                         .Row(Row.Counter).Column(Column.Label),
+
                     new Label().TextStart()
                         .Row(Row.Counter).Column(Column.Value)
                         .Bind<Label, int, string>(Label.TextProperty, nameof(MainViewModel.TappedCount), convert: intValue => intValue.ToString()),
-                    new Button { Text = "Tap Here" }
+
+                    new TextButton("Tap Here")
                         .Row(Row.Button).ColumnSpan(All<Column>())
                         .Bind(Button.CommandProperty, nameof(MainViewModel.ButtonTapped))
                 }
@@ -36,16 +38,16 @@ namespace SimpleCSharpMarkup
         enum Row { Counter, Button }
         enum Column { Label, Value }
 
-        static GridLength AbsoluteGridLength(double value) => new GridLength(value, GridUnitType.Absolute);
+        static GridLength AbsoluteGridLength(in double value) => new GridLength(value, GridUnitType.Absolute);
 
-        class BoldLabel : Label
+        class TextLabel : Label
         {
-            public BoldLabel()
-            {
-                Text = "Tapped Count";
-                FontSize = 13;
-                FontAttributes = FontAttributes.Bold;
-            }
+            public TextLabel(in string text) => Text = text;
+        }
+
+        class TextButton : Button
+        {
+            public TextButton(in string text) => Text = text;
         }
     }
 }
