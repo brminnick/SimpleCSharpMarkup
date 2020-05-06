@@ -1,5 +1,5 @@
 # Simple C# Markup
- A Xamarin.Forms app demonstrating [C# Markup Extensions](https://docs.microsoft.com/xamarin/xamarin-forms/user-interface/csharp-markup/?WT.mc_id=simpleCSharpMarkup-github-bramin), a new way to create fluent Xamarin.Forms UIs in C#.
+ A Xamarin.Forms app demonstrating [C# Markup Extensions](https://docs.microsoft.com/xamarin/xamarin-forms/user-interface/csharp-markup/?WT.mc_id=SimpleCSharpMarkup-github-bramin), a new way to create fluent Xamarin.Forms UIs in C#.
  
 This sample was created live during the [Cologne Xamarin User Group on 06 May 2020](https://codetraveler.io/cologne-csharp-ui/):
 
@@ -12,3 +12,15 @@ This sample was created live during the [Cologne Xamarin User Group on 06 May 20
 | Xamarin.Forms C# UI | Demo |
 | ------------------- | ---- |
 | ![](https://user-images.githubusercontent.com/13558917/81222746-a50bbe80-8f99-11ea-9501-cc794421f9c8.png) | ![](https://user-images.githubusercontent.com/13558917/81223065-3844f400-8f9a-11ea-9947-db339ba7e86d.gif) |
+
+### C# Markup Sample Apps
+
+- [GitTrends](https://github.com/brminnick/GitTrends) - An iOS and Android app to monitor the views and clones of your GitHub repos. Available on the iOS App Store & Google Play Store.
+- [XamConverter](https://github.com/brminnick/XamConverter) - An iOS and Android app created in Xamarin.Forms using 
+
+### Learn More
+
+- [C# Markup Extensions](https://docs.microsoft.com/xamarin/xamarin-forms/user-interface/csharp-markup/?WT.mc_id=SimpleCSharpMarkup-github-bramin)
+- [Mobile Blazor Bindings](https://docs.microsoft.com/mobile-blazor-bindings/?WT.mc_id=SimpleCSharpMarkup-github-bramin)
+- [Comet](https://github.com/Clancey/Comet)
+- [Original CSharpForMarkup by Vincent Hoogendoorn](https://github.com/VincentH-Net/CSharpForMarkup)
