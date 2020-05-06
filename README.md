@@ -1,4 +1,4 @@
-# SimpleCSharpMarkup
+# Simple C# Markup
  A Xamarin.Forms app demonstrating [C# Markup Extensions](https://docs.microsoft.com/xamarin/xamarin-forms/user-interface/csharp-markup/?WT.mc_id=simpleCSharpMarkup-github-bramin), a new way to create fluent Xamarin.Forms UIs in C#.
  
 This sample was created live during the [Cologne Xamarin User Group on 06 May 2020](https://codetraveler.io/cologne-csharp-ui/):
