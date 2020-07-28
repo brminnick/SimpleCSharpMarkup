@@ -11,6 +11,6 @@
         <DebugSymbols>true</DebugSymbols>
     </PropertyGroup>
     <ItemGroup>
-        <PackageReference Include="Xamarin.Forms" Version="4.7.0.968" />
+        <PackageReference Include="Xamarin.Forms" Version="4.7.0.1179" />
     </ItemGroup>
 </Project>
