@@ -1,5 +1,5 @@
 # Simple C# Markup
- A Xamarin.Forms app demonstrating [C# Markup Extensions](https://docs.microsoft.com/xamarin/xamarin-forms/user-interface/csharp-markup/?WT.mc_id=SimpleCSharpMarkup-github-bramin), a new way to create fluent Xamarin.Forms UIs in C#.
+ A Xamarin.Forms app demonstrating [C# Markup Extensions](https://docs.microsoft.com/xamarin/xamarin-forms/user-interface/csharp-markup/?WT.mc_id=mobile-0000-bramin), a new way to create fluent Xamarin.Forms UIs in C#.
  
 This sample was created live during the [Cologne Xamarin User Group on 06 May 2020](https://codetraveler.io/cologne-csharp-ui/):
 
@@ -20,7 +20,7 @@ This sample was created live during the [Cologne Xamarin User Group on 06 May 20
 
 ### Learn More
 
-- [C# Markup Extensions](https://docs.microsoft.com/xamarin/xamarin-forms/user-interface/csharp-markup/?WT.mc_id=SimpleCSharpMarkup-github-bramin)
-- [Mobile Blazor Bindings](https://docs.microsoft.com/mobile-blazor-bindings/?WT.mc_id=SimpleCSharpMarkup-github-bramin)
+- [C# Markup Extensions](https://docs.microsoft.com/xamarin/xamarin-forms/user-interface/csharp-markup/?WT.mc_id=mobile-0000-bramin)
+- [Mobile Blazor Bindings](https://docs.microsoft.com/mobile-blazor-bindings/?WT.mc_id=mobile-0000-bramin)
 - [Comet](https://github.com/Clancey/Comet)
 - [Original CSharpForMarkup by Vincent Hoogendoorn](https://github.com/VincentH-Net/CSharpForMarkup)
