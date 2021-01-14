@@ -15,6 +15,7 @@ namespace SimpleCSharpMarkup
                 RowDefinitions = Rows.Define(
                     (Row.Counter, AbsoluteGridLength(30)),
                     (Row.Button, Star)),
+
                 ColumnDefinitions = Columns.Define(
                     (Column.Label, Star),
                     (Column.Value, Star)),
