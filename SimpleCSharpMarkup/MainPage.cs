@@ -13,7 +13,7 @@ namespace SimpleCSharpMarkup
             Content = new Grid
             {
                 RowDefinitions = Rows.Define(
-                    (Row.Counter, AbsoluteGridLength(30)),
+                    (Row.Counter, 30),
                     (Row.Button, Star)),
 
                 ColumnDefinitions = Columns.Define(
@@ -38,8 +38,6 @@ namespace SimpleCSharpMarkup
 
         enum Row { Counter, Button }
         enum Column { Label, Value }
-
-        static GridLength AbsoluteGridLength(in double value) => new GridLength(value, GridUnitType.Absolute);
 
         class TextLabel : Label
         {
