@@ -11,7 +11,7 @@
         <DebugSymbols>true</DebugSymbols>
     </PropertyGroup>
     <ItemGroup>
-        <PackageReference Include="Xamarin.Forms" Version="5.0.0.1874" />
-        <PackageReference Include="Xamarin.CommunityToolkit.Markup" Version="1.0.1" />
+        <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
+        <PackageReference Include="Xamarin.CommunityToolkit.Markup" Version="1.1.0-pre2" />
     </ItemGroup>
 </Project>
